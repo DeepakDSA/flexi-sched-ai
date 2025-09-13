@@ -15,6 +15,10 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // Professional variants for timetable scheduler
+        hero: "bg-gradient-primary text-primary-foreground shadow-card hover:shadow-elevated transition-[var(--transition-smooth)] hover:translate-y-[-1px]",
+        success: "bg-gradient-success text-success-foreground shadow-card hover:shadow-elevated transition-[var(--transition-smooth)]",
+        warning: "bg-warning text-warning-foreground hover:bg-warning/90 transition-[var(--transition-smooth)]",
       },
       size: {
         default: "h-10 px-4 py-2",
